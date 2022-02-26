@@ -1,5 +1,5 @@
 :root {
-  --accent: #7f0f8a;
+  --accent: #119489;
   --accent-light: #3764a7;
   --pure-white: #fff;
 }
@@ -19,12 +19,22 @@ body {
   margin: 0;
   font-family: "Open Sans", sans-serif;
   color: var(--accent);
+  background-image: url(https://krot.info/uploads/posts/2020-10/1603482735_24-p-krasivii-fon-dlya-prezentatsii-33.jpg);
 }
 
 .container {
   width: 1140px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.section {
+  padding: 50px 0;
+}
+
+.section-title {
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .header {
@@ -44,11 +54,11 @@ body {
 }
 
 .header-logo {
-  width: 20%;
-  font-size: 30px;
-  line-height: 30px;
-  font-weight: 800;
-  letter-spacing: 3px;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 390;
+  text-transform: capitalize;
+  letter-spacing: 1px;
 }
 
 .header-menu {
@@ -61,11 +71,140 @@ body {
 .header-menu-link {
   font-size: 16px;
   line-height: 16px;
-  padding: 15px;
+  padding: 11px;
   text-transform: uppercase;
   transition: background-color 0.4s;
 }
 
 .header-menu-link:hover {
   background-color: var(--accent-light);
+}
+
+.intro {
+  padding: 60px 0;
+}
+
+.intro-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-left {
+  width: 30%;
+}
+
+.intro-img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.intro-right {
+  width: 60%;
+}
+
+.intro-right h1,
+.intro-right h3 {
+  margin: 0 0 15px;
+  color: #119489;
+}
+
+.contacts {
+  margin-bottom: 60px;
+}
+
+.contacts ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.contacts li {
+  text-align: center;
+}
+
+.skills {
+  color: var(--pure-white);
+  background-color: var(--accent);
+}
+
+.skills ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.skills li {
+  padding: 10px 15px;
+  background-image: url(https://klike.net/uploads/posts/2019-09/1568530110_5.jpg);
+  border-radius: 4px;
+}
+
+.code-example {
+  text-align: center;
+}
+
+.code-example pre {
+  width: 60%;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 1.2em;
+  color: var(--pure-white);
+  background-color: var(--accent);
+  border-radius: 8px;
+}
+
+.languages {
+  color: var(--accent);
+}
+
+.languages ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: var(--pure-white);
+  gap: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+.languages li {
+  padding: 10px 15px;
+  background-image: url(https://klike.net/uploads/posts/2019-09/1568530110_5.jpg);
+  border-radius: 4px;
+}
+
+.education {
+  color: var(--pure-white);
+  background-color: var(--accent);
+  line-height: 20px;
+}
+
+.education ul {
+  width: 80%;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.education li {
+  width: 100%;
+  padding: 10 15px;
+  background-image: url(https://klike.net/uploads/posts/2019-09/1568530110_5.jpg);
+  border-radius: 4px;
+}
+
+.footer {
+  color: var(--accent);
+  text-align: center;
 }
